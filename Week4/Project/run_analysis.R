@@ -1,7 +1,7 @@
 library(dplyr)
 
 
-## read in files and give column names based on README
+## read in files and give column names based on CodeBook
 activity_labels <- read.table('./UCI HAR Dataset/activity_labels.txt', col.names = c('activity_no', 'activity'))
 features <- read.table('./UCI HAR Dataset/features.txt', col.names = c('row', 'feature'))
 
